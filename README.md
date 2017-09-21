@@ -44,15 +44,6 @@ Using Yarn -- "yarn add --dev css-loader"
 
 When installed open your webpack.config.js file and add new object to "rules" array:
 
-module.exports = {
-  entry: {
-    main: './src/main.js',
-    about: './src/about.js',
-  },
-  output: {
-    path: path.resolve('./dist'),
-    filename: '[name].js'
-  },
   module: {
     rules: [
     {
@@ -69,6 +60,36 @@ module.exports = {
       test: /\.css$/,
       use: '['style-loader', 'css-loader']'
     }
-    ]
-  }
-};
+  ]
+}
+
+# Sass loader
+
+Using npm -- "npm install sass-loader node-sass webpack --save-dev"
+
+Using Yarn -- "yarn add --dev sass-loader"
+
+When installed open your webpack.config.js file and add new object to "rules" array:
+
+  module: {
+    rules: [
+    {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['env']
+        }
+      }
+    },
+    {
+      test: /\.css$/,
+      use: '['style-loader', 'css-loader']'
+    },
+    {
+      test: /\.scss$/,
+      use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+    }
+  ]
+}
