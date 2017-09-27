@@ -1,14 +1,21 @@
 # Webpack-loaders
 Settings up loaders for webpack
 
-# Babel loader (ES6)
+## Babel loader (ES6)
 
-Using npm -- "npm install --save-dev babel-loader babel-core babel-preset-env"
+###Using npm
+```
+npm install --save-dev babel-loader babel-core babel-preset-env
+```
 
-Using Yarn -- "yarn add --dev babel-loader babel-core babel-preset-env"
+###Using Yarn
+```
+yarn add --dev babel-loader babel-core babel-preset-env
+```
 
 When installed open your webpack.config.js file and add new property "module":
 
+```
 const path = require('path');
 
 module.exports = {
@@ -35,15 +42,22 @@ module.exports = {
     ]
   }
 };
+```
 
-# CSS loader
+## CSS loader
 
-Using npm -- "npm install --save-dev css-loader"
+### Using npm
+```
+npm install --save-dev css-loader
+```
 
-Using Yarn -- "yarn add --dev css-loader"
+### Using Yarn
+```
+yarn add --dev css-loader
+```
 
 When installed open your webpack.config.js file and add new object to "rules" array:
-
+```
   module: {
     rules: [
     {
@@ -62,15 +76,21 @@ When installed open your webpack.config.js file and add new object to "rules" ar
     }
   ]
 }
+```
+## Sass loader
 
-# Sass loader
+### Using npm
+```
+npm install sass-loader node-sass webpack --save-dev
+```
 
-Using npm -- "npm install sass-loader node-sass webpack --save-dev"
-
-Using Yarn -- "yarn add --dev sass-loader"
+### Using Yarn
+```
+yarn add --dev sass-loader
+```
 
 When installed open your webpack.config.js file and add new object to "rules" array:
-
+```
   module: {
     rules: [
     {
@@ -93,3 +113,4 @@ When installed open your webpack.config.js file and add new object to "rules" ar
     }
   ]
 }
+```
