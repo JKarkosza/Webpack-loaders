@@ -3,12 +3,12 @@ Settings up loaders for webpack
 
 ## Babel loader (ES6)
 
-###Using npm
+### Using npm
 ```
 npm install --save-dev babel-loader babel-core babel-preset-env
 ```
 
-###Using Yarn
+### Using Yarn
 ```
 yarn add --dev babel-loader babel-core babel-preset-env
 ```

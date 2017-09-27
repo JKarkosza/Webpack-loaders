@@ -1,0 +1,29 @@
+[33mcommit 8a34318024f09c7cbd2aa91b3d082ac83e745827[m
+Author: JKarkosza <jakubkarkosza@gmail.com>
+Date:   Thu Sep 21 11:04:55 2017 +0200
+
+    sass loader
+
+[33mcommit cad2d2fb5549641e0964542fe9236f0074c27a78[m
+Author: JKarkosza <jakubkarkosza@gmail.com>
+Date:   Thu Sep 21 10:10:22 2017 +0200
+
+    css loaders
+
+[33mcommit 2057ded8444ebf38bf1ab6a5a567bcbd3674b51e[m
+Author: JKarkosza <jakubkarkosza@gmail.com>
+Date:   Thu Sep 21 09:57:16 2017 +0200
+
+    es6 loader
+
+[33mcommit 6661e038eafb16f9079f6d246ec4e7b35545789a[m
+Author: JKarkosza <jakubkarkosza@gmail.com>
+Date:   Thu Sep 21 09:23:31 2017 +0200
+
+    setup
+
+[33mcommit 1e8bd67fc59205354f450a7320eb971333751e53[m
+Author: JKarkosza <jakubkarkosza@gmail.com>
+Date:   Thu Sep 21 09:03:35 2017 +0200
+
+    Initial commit
